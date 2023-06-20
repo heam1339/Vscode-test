@@ -1,0 +1,33 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Raleway:wght@100;400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body,html{
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-size: 100%;
+}
+img{
+    vertical-align: bottom;
+}
+#wrap{
+    width: 100%;
+}
+.boxalign{
+    width: 1250px;
+    margin: auto;
+    border: 1px solid red;    
+}
+.boxalign #logo img{
+    width: 20%;
+}
+nav ul{}
+nav ul li a{}
+main{}
+section{}
+footer{}
