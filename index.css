@@ -12,6 +12,13 @@ body,html{
 h1, h2, h3, h4, h5, h6{
     font-size: 100%;
 }
+ul{
+    list-style: none;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
 img{
     vertical-align: bottom;
 }
@@ -19,15 +26,73 @@ img{
     width: 100%;
 }
 .boxalign{
-    width: 1250px;
+    max-width: 1250px;
     margin: auto;
     border: 1px solid red;    
 }
 .boxalign #logo img{
     width: 20%;
 }
-nav ul{}
-nav ul li a{}
-main{}
+.Raleway{
+    font-family: 'Raleway', sans-serif;
+}
+.Oswald{
+    font-family: 'Oswald', sans-serif;
+}
+.more{
+    display: inline-flex;
+    justify-content: center;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: .3s;
+}
+header{
+    background-color: #222;
+    color: #aaa;
+    text-align: center;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    gap: 20px;
+}
+nav ul li a{
+    font-size: 1.2rem;
+}
+nav ul li:hover a{
+    color: #fff;
+    transition: .3s;
+}
+main{
+    height: 400px;
+    background-color: #222;
+    background-position: center;
+    color: #fff;
+}
+main div{
+    text-align: center;
+    padding-top: 10rem;
+}
+main div h2{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+main div p{
+    color: #aaa;
+    /* margin-bottom: 15rem; */
+}
+main div a{
+    background-color: #ddd;
+    color: #222;
+    border: 1px solid #ddd;
+    margin-top: 3rem;
+}
+main div a:hover{
+    background-color: #222;
+    color: #fff;
+}
+
 section{}
 footer{}
